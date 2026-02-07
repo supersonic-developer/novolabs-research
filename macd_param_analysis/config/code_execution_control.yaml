@@ -1,0 +1,4 @@
+simulation_batch_size: 200  # Number of simulations to run in a batch (~0.046s / sim, 200 sims ~ 9.2s)
+db_bulk_insert_size: 5000   # Number of records to insert into DB in a single bulk operation
+threads_to_use: 12          # Number of parallel threads to use for simulations, note: if not provided or greater, than available number of cores, will use the number of available CPU cores - 2
+consumer_queue_size: 50000  # Size of the queue used to communicate between simulation tasks and DB worker task

@@ -1,0 +1,12 @@
+sshtunnel
+sqlalchemy
+pandas
+yfinance
+vectorbt
+psycopg2
+asyncpg
+paramiko<4
+pyyaml
+
+polars[all]
+seaborn

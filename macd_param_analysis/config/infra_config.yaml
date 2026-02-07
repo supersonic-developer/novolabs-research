@@ -1,0 +1,12 @@
+# NOTE: all SSH configurations are optional; if not provided, no SSH tunneling will be used
+ssh_host: "255.255.255.255" # IP / domain of the SSH server
+ssh_port: 22
+ssh_username: "your_username"
+ssh_pkey_path: "~/.ssh/id_ed25519" # e.g. ~/.ssh/id_rsa
+db_local_port: 65433 # Local port for SSH tunneling
+
+# Database configurations are required
+db_user: "your_db_user" # NOTE: must match the POSTGRES_USER in .env
+db_name: "your_db_name" # Name of your database in PostgreSQL
+db_host: "localhost" # If using SSH tunneling, usually "localhost" / 127.0.0.1, else the actual DB host in the docker network
+db_port: 5432 # The port where your DB server is on the network, note: must match POSTGRES_PORT in .env if no SSH tunneling

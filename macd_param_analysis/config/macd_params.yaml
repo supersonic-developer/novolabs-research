@@ -1,0 +1,8 @@
+# Always provide 3 elements in each list
+# Interpret as:
+#     - 1st element: start of the range (inclusive)
+#     - 2nd element: end of the range (exclusive)
+#     - 3rd element: step size
+fast_periods: [2, 52, 2]
+slow_periods: [20, 202, 2]
+signal_periods: [10, 102, 2]

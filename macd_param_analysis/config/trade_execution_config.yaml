@@ -1,0 +1,3 @@
+# Check possible values in schemas/config_models.py -> PositionSizing & TradeDirection
+position_sizing: "fixed"
+direction: "long_only"

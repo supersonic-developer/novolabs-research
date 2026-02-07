@@ -1,0 +1,5 @@
+- source: yahoo
+  asset: BTC-USD
+  timeframe: 1d   # Check yahoo finance or used API for available timeframes
+  start_date: 2021-01-02T00:00:00Z    # always use timezone-aware datetime strings
+  end_date: 2026-01-01T00:00:00Z

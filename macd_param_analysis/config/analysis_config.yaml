@@ -1,0 +1,5 @@
+metrics:
+  - expectancy # Check strategies.extract.py CORE_METRICS
+top_n:
+  - 0.1  # Top 10%
+  
